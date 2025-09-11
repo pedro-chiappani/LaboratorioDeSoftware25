@@ -1,0 +1,3 @@
+[submodule "Talleres/RobocodeLabo"]
+	path = Talleres/RobocodeLabo
+	url = https://github.com/pedro-chiappani/RobocodeLaboLPT
