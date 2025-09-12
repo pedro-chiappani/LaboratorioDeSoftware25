@@ -1,4 +1,4 @@
-package practica3;
+package practica3.ejercicio1;
 
 public class Stack {
     private java.util.ArrayList<Object> items;
