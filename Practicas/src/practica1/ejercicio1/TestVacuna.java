@@ -1,9 +1,10 @@
-package practica1;
+package practica1.ejercicio1;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class TestVacuna {
     public static void main(String[] args) {
-        Vacuna  vacunas[] = new Vacuna[5];
+        Vacuna vacunas[] = new Vacuna[5];
         Vacuna vacu = new Vacuna();
         vacu.setMarca("Marca0");
         vacu.setPais("Pais0");

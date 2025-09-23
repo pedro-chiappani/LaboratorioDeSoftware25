@@ -1,4 +1,4 @@
-package practica1;
+package practica1.ejercicio1;
 //Punto 1a
 
 public class Vacuna {
