@@ -1,3 +1,6 @@
 [submodule "Talleres/RobocodeLabo"]
 	path = Talleres/RobocodeLabo
 	url = https://github.com/pedro-chiappani/RobocodeLaboLPT
+[submodule "Talleres/Entrega3"]
+	path = Talleres/Entrega3
+	url = https://github.com/pedro-chiappani/EntregableKotlinLS
