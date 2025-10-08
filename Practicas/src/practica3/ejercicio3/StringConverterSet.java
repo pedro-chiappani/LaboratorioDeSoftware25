@@ -6,7 +6,7 @@ import java.util.Iterator;
 
 public class StringConverterSet extends AbstractSet{
 
-    private ArrayLikjst set;
+    private ArrayList set;
 
     public StringConverterSet() {
         set = new ArrayList();
