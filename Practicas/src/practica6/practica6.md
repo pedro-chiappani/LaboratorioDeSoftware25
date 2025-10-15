@@ -3,7 +3,7 @@
 - #### Try/catch/finally
 - #### Definición de Excepciones
 
-1. ### Determine si el siguiente código es correcto. Si produce un error, observe de qué tipo es y soluciónelo
+1. ## Determine si el siguiente código es correcto. Si produce un error, observe de qué tipo es y soluciónelo
     ``` java
    class Excepcion1 extends Exception{}
    class Excepcion2 extends Exception1{}
