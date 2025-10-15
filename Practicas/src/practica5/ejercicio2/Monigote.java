@@ -1,14 +1,14 @@
 package practica5.ejercicio2;
 
-@Archivo(nombre="monigote.jpg")
+@Archivo()
 public class Monigote {
 
     @AlmacenarAtributo
     private String valore = "Algo";
 
-    @AlmacenarAtributo
-    private Integer valore2 = 20;
 
+    private Integer valore2 = 20;
+    @AlmacenarAtributo
     private Float valore3 = 0.5f;
 
     public String getValore() {
