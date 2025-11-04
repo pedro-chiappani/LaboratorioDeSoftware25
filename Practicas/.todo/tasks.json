@@ -1,0 +1,371 @@
+[
+  {
+    "id": "TASK_1",
+    "priority": "LOW",
+    "tags": [],
+    "title": "Practica 2 - Ej 4",
+    "description": "",
+    "status": "DONE",
+    "date": {
+      "date": {
+        "year": 2025,
+        "month": 11,
+        "day": 4
+      },
+      "time": {
+        "hour": 15,
+        "minute": 20,
+        "second": 59,
+        "nano": 227286412
+      }
+    },
+    "finishDate": {
+      "date": {
+        "year": 2025,
+        "month": 11,
+        "day": 4
+      },
+      "time": {
+        "hour": 15,
+        "minute": 21,
+        "second": 23,
+        "nano": 413026946
+      }
+    },
+    "isImported": false
+  },
+  {
+    "id": "TASK_4",
+    "priority": "LOW",
+    "tags": [],
+    "title": "Practica 3 - Ej 4",
+    "description": "",
+    "status": "DONE",
+    "date": {
+      "date": {
+        "year": 2025,
+        "month": 11,
+        "day": 4
+      },
+      "time": {
+        "hour": 15,
+        "minute": 21,
+        "second": 37,
+        "nano": 52906717
+      }
+    },
+    "finishDate": {
+      "date": {
+        "year": 2025,
+        "month": 11,
+        "day": 4
+      },
+      "time": {
+        "hour": 17,
+        "minute": 20,
+        "second": 27,
+        "nano": 132558203
+      }
+    },
+    "isImported": false
+  },
+  {
+    "id": "TASK_7",
+    "priority": "LOW",
+    "tags": [],
+    "title": "Practica 3 - Ej 5",
+    "description": "",
+    "status": "DONE",
+    "date": {
+      "date": {
+        "year": 2025,
+        "month": 11,
+        "day": 4
+      },
+      "time": {
+        "hour": 15,
+        "minute": 22,
+        "second": 16,
+        "nano": 715160813
+      }
+    },
+    "finishDate": {
+      "date": {
+        "year": 2025,
+        "month": 11,
+        "day": 4
+      },
+      "time": {
+        "hour": 17,
+        "minute": 20,
+        "second": 30,
+        "nano": 737763179
+      }
+    },
+    "isImported": false
+  },
+  {
+    "id": "TASK_11",
+    "priority": "LOW",
+    "tags": [],
+    "title": "Practica 3 - Ej 6",
+    "description": "",
+    "status": "IN_PROGRESS",
+    "date": {
+      "date": {
+        "year": 2025,
+        "month": 11,
+        "day": 4
+      },
+      "time": {
+        "hour": 15,
+        "minute": 22,
+        "second": 29,
+        "nano": 228201343
+      }
+    },
+    "isImported": false
+  },
+  {
+    "id": "TASK_16",
+    "priority": "LOW",
+    "tags": [],
+    "title": "Practica 3 - Ej 7",
+    "description": "",
+    "status": "IN_PROGRESS",
+    "date": {
+      "date": {
+        "year": 2025,
+        "month": 11,
+        "day": 4
+      },
+      "time": {
+        "hour": 15,
+        "minute": 22,
+        "second": 37,
+        "nano": 102641324
+      }
+    },
+    "isImported": false
+  },
+  {
+    "id": "TASK_22",
+    "priority": "LOW",
+    "tags": [],
+    "title": "Practica 3 - Ej 8",
+    "description": "",
+    "status": "IN_PROGRESS",
+    "date": {
+      "date": {
+        "year": 2025,
+        "month": 11,
+        "day": 4
+      },
+      "time": {
+        "hour": 15,
+        "minute": 22,
+        "second": 47,
+        "nano": 43461820
+      }
+    },
+    "isImported": false
+  },
+  {
+    "id": "TASK_29",
+    "priority": "LOW",
+    "tags": [],
+    "title": "Practica 4 - Ej 1",
+    "description": "",
+    "status": "TODO",
+    "date": {
+      "date": {
+        "year": 2025,
+        "month": 11,
+        "day": 4
+      },
+      "time": {
+        "hour": 15,
+        "minute": 22,
+        "second": 58,
+        "nano": 16341874
+      }
+    },
+    "isImported": false
+  },
+  {
+    "id": "TASK_37",
+    "priority": "LOW",
+    "tags": [],
+    "title": "Practica 4 - Ej 2",
+    "description": "",
+    "status": "TODO",
+    "date": {
+      "date": {
+        "year": 2025,
+        "month": 11,
+        "day": 4
+      },
+      "time": {
+        "hour": 15,
+        "minute": 25,
+        "second": 3,
+        "nano": 538046546
+      }
+    },
+    "isImported": false
+  },
+  {
+    "id": "TASK_46",
+    "priority": "LOW",
+    "tags": [],
+    "title": "Practica 4 - Ej 3",
+    "description": "",
+    "status": "TODO",
+    "date": {
+      "date": {
+        "year": 2025,
+        "month": 11,
+        "day": 4
+      },
+      "time": {
+        "hour": 15,
+        "minute": 25,
+        "second": 8,
+        "nano": 272520082
+      }
+    },
+    "isImported": false
+  },
+  {
+    "id": "TASK_56",
+    "priority": "LOW",
+    "tags": [],
+    "title": "Practica 4 - Ej 4",
+    "description": "",
+    "status": "TODO",
+    "date": {
+      "date": {
+        "year": 2025,
+        "month": 11,
+        "day": 4
+      },
+      "time": {
+        "hour": 15,
+        "minute": 25,
+        "second": 12,
+        "nano": 556026808
+      }
+    },
+    "isImported": false
+  },
+  {
+    "id": "TASK_67",
+    "priority": "LOW",
+    "tags": [],
+    "title": "Practica 6 - Ej 2",
+    "description": "",
+    "status": "TODO",
+    "date": {
+      "date": {
+        "year": 2025,
+        "month": 11,
+        "day": 4
+      },
+      "time": {
+        "hour": 15,
+        "minute": 25,
+        "second": 21,
+        "nano": 629975766
+      }
+    },
+    "isImported": false
+  },
+  {
+    "id": "TASK_79",
+    "priority": "LOW",
+    "tags": [],
+    "title": "Practica 6 - Ej 3",
+    "description": "",
+    "status": "TODO",
+    "date": {
+      "date": {
+        "year": 2025,
+        "month": 11,
+        "day": 4
+      },
+      "time": {
+        "hour": 15,
+        "minute": 25,
+        "second": 29,
+        "nano": 922577760
+      }
+    },
+    "isImported": false
+  },
+  {
+    "id": "TASK_92",
+    "priority": "LOW",
+    "tags": [],
+    "title": "Practica 6 - Ej 4",
+    "description": "",
+    "status": "TODO",
+    "date": {
+      "date": {
+        "year": 2025,
+        "month": 11,
+        "day": 4
+      },
+      "time": {
+        "hour": 15,
+        "minute": 25,
+        "second": 37,
+        "nano": 560149715
+      }
+    },
+    "isImported": false
+  },
+  {
+    "id": "TASK_106",
+    "priority": "LOW",
+    "tags": [],
+    "title": "Practica 6 - Ej 5",
+    "description": "",
+    "status": "TODO",
+    "date": {
+      "date": {
+        "year": 2025,
+        "month": 11,
+        "day": 4
+      },
+      "time": {
+        "hour": 15,
+        "minute": 25,
+        "second": 43,
+        "nano": 414341179
+      }
+    },
+    "isImported": false
+  },
+  {
+    "id": "TASK_121",
+    "priority": "LOW",
+    "tags": [],
+    "title": "Practica 7 - Ej 3",
+    "description": "",
+    "status": "TODO",
+    "date": {
+      "date": {
+        "year": 2025,
+        "month": 11,
+        "day": 4
+      },
+      "time": {
+        "hour": 15,
+        "minute": 25,
+        "second": 50,
+        "nano": 860040470
+      }
+    },
+    "isImported": false
+  }
+]
