@@ -132,7 +132,7 @@
     "tags": [],
     "title": "Practica 3 - Ej 7",
     "description": "",
-    "status": "IN_PROGRESS",
+    "status": "DONE",
     "date": {
       "date": {
         "year": 2025,
@@ -144,6 +144,19 @@
         "minute": 22,
         "second": 37,
         "nano": 102641324
+      }
+    },
+    "finishDate": {
+      "date": {
+        "year": 2025,
+        "month": 11,
+        "day": 5
+      },
+      "time": {
+        "hour": 10,
+        "minute": 13,
+        "second": 40,
+        "nano": 845228409
       }
     },
     "isImported": false

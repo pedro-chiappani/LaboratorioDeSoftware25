@@ -70,29 +70,43 @@
    ### Retomando la clase Logger que implementaron en el ejercicio 4 de la TP 1, realice ahora un proyecto modular:
    - ### Defina un módulo llamado loggingutils que contenga la clase Logger.
    - ### En cada uno de sus métodos `(logInfo(String mensaje)`, `logWarning(String mensaje)`, `logError(String mensaje))`, en lugar de imprimir directamente en consola, utilice la clase `java.util.logging.Logger` para registrar los mensajes.
-   - ### ¿Para qué sirve el archivo *module-info.java*? En el módulo *loggingutils*, ¿qué declaración debe incluirse en module-info.java para exponer su paquete al resto de los módulos? Para usar java.util.logging.Logger desde loggingutils, ¿es necesario declarar alguna dependencia en module-info.java? ¿Por qué?
-   - ### Luego, cree un segundo módulo llamado test que contenga una clase con el método main(). Desde el main(), utilice el Logger del módulo loggingutils para mostrar los tres tipos de mensajes en la salida. El proyecto debería quedar estructurado de la siguiente manera:
-       ```
-       project/
-       ├--loggingutils/
-       │   └--src/
-       │     ├-- module-info.java
-       │     └-- loggingutils/
-       │       └-- Logger.java
-       └--test/
-           └-- src/
-             ├--module-info.java
-             └--test/
-               └-- Main.java
-       ```
-   ### La documentación de la clase java.util.logging.Logger está disponible en: https://docs.oracle.com/en/java/javase/24/docs/api/java.logging/java/util/logging/Logger.html
+        ## Solucion -> [Logger](../../logginutils/src/logginutils/Logger.java)
+   - ### ¿Para qué sirve el archivo *module-info.java*? En el módulo *loggingutils*, 
+   ¿qué declaración debe incluirse en module-info.java para exponer su paquete al resto de los módulos? Para usar java.util.logging.Logger desde loggingutils, ¿es necesario declarar alguna dependencia en module-info.java? ¿Por qué?
+      `module-info.java` define el nombre del módulo. Además, declara qué paquetes se exponen (exports) para que otros módulos puedan usarlos.  
+      También permite declarar dependencias (requires) si se usan clases de otros 
+    módulos.  
+      No, no es necesario por qué el módulo java.base (que incluye java.util) está 
+    implicitamente disponible en todos los módulos.
+   - ### Luego, cree un segundo módulo llamado test que contenga una clase con el 
+   método main(). Desde el main(), utilice el Logger del módulo loggingutils para mostrar los tres tipos de mensajes en la salida. El proyecto debería quedar estructurado de la siguiente manera:
+      ```
+      project/
+      ├--loggingutils/
+      │   └--src/
+      │     ├-- module-info.java
+      │     └-- loggingutils/
+      │       └-- Logger.java
+      └--test/
+          └-- src/
+            ├--module-info.java
+            └--test/
+              └-- Main.java
+      ```
+    
+      ## Solucion -> [Test](../../test/src/test/Main.java)
+      ### La documentación de la clase java.util.logging.Logger está disponible en: https://docs.oracle.com/en/java/javase/24/docs/api/java.logging/java/util/logging/Logger.html
 8. ## Declaración e implementación de Tipos Enumerativos
    - ### a) Implemente un tipo enumerativo llamado Notas que define los valores de las notas musicales y con su correspondiente cifrado americano (almacenado en un String).
+        ## [Notas](ejercicio8/Notas.java)
    - ### b) Implemente un tipo enumerativo llamado FrecuenciasDeLA que represente las siguientes frecuencias estándares de afinación:
      - 440 Hz: Organización Internacional de Estandarización ISO 16.
      - 444 Hz: Afinación de cámara.
      - 446 Hz: Renacimiento.
      - 480 Hz: Órganos alemanes que tocaba Bach.
+     
+     ## [FrecuenciasDeLa](ejercicio8/FrecuenciasDeLa.java)
    - ### c) Sobrecargue los métodos hacerSonar() y afinar() de la interface InstrumentoMusical del ejercicio 1b) de la práctica 2 de manera que el nuevo hacerSonar(Notas n, int duracion) reciba como parámetro una nota musical y una duración, y el nuevo método afinar(FrecuenciaDeLA f) reciba como parámetro una frecuencia de LA.
+     [InstrumentoMusical](ejercicio8/InstrumentoMusical.java)
    - ### d) Defina una clase llamada Piano que implemente la interface InstrumentoMusical y una clase TestPiano que permita probar los métodos implementados.
    - ### e) Implemente el patrón de diseño Singleton mediante un tipo Enumerativo el cual represente a Fito Páez. Fito cuenta con un instrumento musical (piano) y en algún momento se le puede pedir que toque una canción (especificando un arreglo de notas musicales con sus tiempos).
