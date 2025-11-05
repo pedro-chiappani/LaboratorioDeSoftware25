@@ -167,7 +167,7 @@
     "tags": [],
     "title": "Practica 3 - Ej 8",
     "description": "",
-    "status": "IN_PROGRESS",
+    "status": "DONE",
     "date": {
       "date": {
         "year": 2025,
@@ -179,6 +179,19 @@
         "minute": 22,
         "second": 47,
         "nano": 43461820
+      }
+    },
+    "finishDate": {
+      "date": {
+        "year": 2025,
+        "month": 11,
+        "day": 5
+      },
+      "time": {
+        "hour": 10,
+        "minute": 48,
+        "second": 17,
+        "nano": 205327379
       }
     },
     "isImported": false
