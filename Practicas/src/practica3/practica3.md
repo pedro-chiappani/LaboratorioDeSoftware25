@@ -72,19 +72,19 @@
    - ### En cada uno de sus métodos `(logInfo(String mensaje)`, `logWarning(String mensaje)`, `logError(String mensaje))`, en lugar de imprimir directamente en consola, utilice la clase `java.util.logging.Logger` para registrar los mensajes.
    - ### ¿Para qué sirve el archivo *module-info.java*? En el módulo *loggingutils*, ¿qué declaración debe incluirse en module-info.java para exponer su paquete al resto de los módulos? Para usar java.util.logging.Logger desde loggingutils, ¿es necesario declarar alguna dependencia en module-info.java? ¿Por qué?
    - ### Luego, cree un segundo módulo llamado test que contenga una clase con el método main(). Desde el main(), utilice el Logger del módulo loggingutils para mostrar los tres tipos de mensajes en la salida. El proyecto debería quedar estructurado de la siguiente manera:
-   ```
-   project/
-   ├-- loggingutils/
-   │ └--src/
-   │ ├-- module-info.java
-   │ └-- loggingutils/
-   │ └-- Logger.java
-   └--test/
-   └-- src/
-   ├--module-info.java
-   └--test/
-   └-- Main.java
-   ```
+       ```
+       project/
+       ├--loggingutils/
+       │   └--src/
+       │     ├-- module-info.java
+       │     └-- loggingutils/
+       │       └-- Logger.java
+       └--test/
+           └-- src/
+             ├--module-info.java
+             └--test/
+               └-- Main.java
+       ```
    ### La documentación de la clase java.util.logging.Logger está disponible en: https://docs.oracle.com/en/java/javase/24/docs/api/java.logging/java/util/logging/Logger.html
 8. ## Declaración e implementación de Tipos Enumerativos
    - ### a) Implemente un tipo enumerativo llamado Notas que define los valores de las notas musicales y con su correspondiente cifrado americano (almacenado en un String).
